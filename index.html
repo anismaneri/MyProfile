@@ -6,49 +6,59 @@
     </head>
     <style>
         .body_section{
-            background-color: rgb(183, 199, 167);
+            background-color: rgb(208, 226, 186);
+        
         }
-        #nav_bar{
-            color: rgb(229, 170, 23);
+        #nav_bar a{
+            color: rgb(18, 237, 226);
             font-size: 20px;
             font-weight: 400;
             text-transform: capitalize;
             text-align: left;
             font-family: 'Sofia', cursive;
-            background-color: bisque;
+            background-color: antiquewhite;
+            
         }
+        #nav_bar2{
+            margin-right: 30px;
+        } 
         a{
             text-decoration: none;
         }
         .header_section{
-            text-align: left;
-            color: brown;
-            background-color: rgb(246, 248, 250);
+            text-align: center;
+            color: rgb(229, 19, 131);
+            
         }
-        .iframe_section{
-            background-color: rgb(131, 207, 153);
+        #header{
+             margin-right:  30px;
+             
         }
+        #follow_me {
+             margin-right: 30px;
+        }
+        
     </style>
 <body class="body_section">
     <header>
         <div class="header_section">
-        <p><strong> <i class="fa fa-user-circle-o" aria-hidden="true"></i>: Anis </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <strong> <i class="fa fa-mobile" aria-hidden="true"></i>: 97309222816 </strong>&nbsp;&nbsp;&nbsp;&nbsp;
-            <strong> <i class="fa fa-envelope-o" aria-hidden="true"></i>: anismaneri007@gmail.com </strong>
+        <p><span id="header"> <i class="fa fa-user-circle-o" aria-hidden="true"></i>: Anis </span>
+            <span id="header"> <i class="fa fa-mobile" aria-hidden="true"></i>: 97309222816</span> 
+            <span id="header"> <i class="fa fa-envelope-o" aria-hidden="true"></i>: anismaneri007@gmail.com </span>
          </p>
         </div>
 
-    </header>
+    </header> 
     <br>
     <nav id="nav_bar">
-    <a href="home.html" target="my_frame"> HOME </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="personaldetail.html" target="my_frame"> PERSONAL DETAILS </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="projectDetail.html" target="my_frame"> PROJECT DETAILS </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="gallary.html" target="my_frame"> GALLARY </a> &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="studentRegistrationForm.html" target="my_frame"> STUDENT REGISTRATION FORM</a>
+    <span id="nav_bar2"><a href="home.html" target="my_frame"> HOME </a></span>
+    
+    <span id="nav_bar2"><a href="personaldetail.html" target="my_frame"> PERSONAL DETAILS </a></span>
+    
+    <span id="nav_bar2"><a href="projectDetail.html" target="my_frame"> PROJECT DETAILS </a></span>
+    
+    <span id="nav_bar2"><a href="gallary.html" target="my_frame"> GALLARY </a></span>
+    <span id="nav_bar2"><a href="studentRegistrationForm.html" target="my_frame"> STUDENT REGISTRATION FORM</a></span>
     </nav>
 
     <hr>
@@ -56,19 +66,20 @@
     <iframe  name="my_frame" width="1000px" height="800px" class="iframe_section">
         
     </iframe>
-    
+  
 
     
 
-    <footer>
-        <p> <strong> Follow me on </strong>&nbsp;&nbsp;&nbsp;&nbsp;
+    <footer id="Follow_me" >
+        <div  id="Follow_me">
+        <span id="Follow_me"> Follow me on </span>
             
-                 <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>  &nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>  &nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href="https://www.google.co.in/" target="_blank"> <i class="fa fa-google" aria-hidden="true"></i> </a> &nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href="https://www.instagram.com/anismaneri/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"> </i> </a>
+        <span id="Follow_me"> <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a> </span> 
+        <span id="Follow_me"> <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a></span>  
+        <span id="Follow_me"> <a href="https://www.google.co.in/" target="_blank"> <i class="fa fa-google" aria-hidden="true"></i> </a> </span>
+        <span id="Follow_me"> <a href="https://www.instagram.com/anismaneri/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"> </i> </a></span>
                  
-        </p>
+        </div>
     </footer>
 
 </body>
