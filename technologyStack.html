@@ -9,20 +9,24 @@
           }
         .tech_stack, td, tr, th{
             padding-top: 20px;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             padding-left: 10px;
-        
-            
-        }
+            margin-top: 20px;
+            margin-left: 160px;
+         }
+         tr:nth-child(even){
+            background-color: rgb(125, 93, 154);
+            color: antiquewhite;
+         }
         .span_bar{
             padding-left: 40px;
             padding-bottom: 40px;
             padding-top: 40px;
         }
-        .stack_bar{
-            padding-top: 40px;
-            padding-bottom: 40px;
-            padding-left: 40px;
+        #stack_bar{
+            padding-left: 180px;
+            text-shadow: 4px 2px 5px rgb(125, 93, 154) ;
+            font-size: larger;
         }
         
     
@@ -34,8 +38,9 @@
     <body class="span_bar" >
 
         <table class="tech_stack">
-            <span class="stack_bar" ><strong><big> Technology Stack </big></strong>  </span>
-         
+            <marquee direction="left" width="400px" height="50px" behavior="sliding">
+            <span id="stack_bar" ><strong><big> Technology Stack </big></strong>  </span>
+        </marquee>
         <thead >
             <tr>
                 <th> Sr.No </th>
