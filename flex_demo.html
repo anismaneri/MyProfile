@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Flex Demo </title>
+    <style>
+        .container{
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        .container div{
+            background-color: rgb(61, 119, 100);
+            border: 1px solid rgb(17, 31, 17);
+            width: 300px;
+        }
+        .flex-item-1{
+            flex: 1;
+        }
+        .flex-item-2{
+            flex: 2;
+        }
+        .flex-item-3{
+            flex: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item-1">
+            <h3> Angular - Web Developer </h3>
+            <P> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed to eiusmod tempor incididunt ut labore </P>
+        </div>
+        <div class="flex-item-2">
+            <h3> React - Web Developer </h3>
+            <P> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed to eiusmod tempor incididunt ut labore </P>
+        </div>
+        <div class="flex-item-3">
+            <h3> Fullstack - Web Developer </h3>
+            <P> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed to eiusmod tempor incididunt ut labore </P>
+        </div>
+    </div>
+</body>
+
